@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-    margin: 30px 150px;
+    margin: 30px auto;
+    max-width: 1140px;
 }
 
 nav li {
@@ -32,4 +33,18 @@ li:first-child{
 }
 li:nth-child(2), li:nth-child(3) {
     color: #8987A1;
+}
+.text-gray{
+    color: rgba(0, 0, 0, 0.5);
+}
+.flower{
+    display: flex;
+    align-items: center;
+    margin-top: 282px;
+}
+.title{
+    font-size: 65px;
+}
+.text-primary{
+    color: #E95A08;
 }
