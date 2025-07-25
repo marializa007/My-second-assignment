@@ -6,6 +6,10 @@
      font-family: Inter;
  }
 
+ h2 {
+     margin: 0;
+ }
+
  nav li {
      list-style: none;
 
@@ -74,14 +78,16 @@
      grid-template-columns: repeat(4, 1fr);
      text-align: center;
  }
- .image-flower p{
-    font-size: 22px;
-    margin-bottom: 20px;
+
+ .image-flower p {
+     font-size: 22px;
+     margin-bottom: 20px;
  }
- .image-flower h4{
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 0;
+
+ .image-flower h4 {
+     font-size: 22px;
+     font-weight: bold;
+     margin-top: 0;
  }
 
  .lover {
@@ -112,6 +118,72 @@
      font-size: 22px;
      text-align: justify;
  }
+
+ .latest-deals {
+     text-align: center;
+     margin-bottom: 125px;
+ }
+
+ .Deals-title {
+     font-size: 50px;
+
+ }
+
+ .bloom {
+     text-align: center;
+     color: #FFFFFF;
+     width: 366px;
+     height: 201px;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
+     background-image: url('assets/deal-bloom.png');
+     background-repeat: no-repeat;
+     margin-bottom: 25px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .bloom p,
+ .Plan p {
+     margin-bottom: 0;
+ }
+
+ .Plan {
+     text-align: center;
+     color: #FFFFFF;
+     width: 366px;
+     height: 197px;
+     background-image: url('assets/deal-ana.png');
+     background-repeat: no-repeat;
+     background-position: contain;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
+     
+ }
+
+ .Zabo {
+     text-align: center;
+     color: #FFFFFF;
+     width: 753px;
+     height: 423px;
+     background-image: url('assets/deal-zabo.png');
+     background-repeat: no-repeat;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+      background-color: rgba(0, 0, 0, 0.5);
+     background-blend-mode: darken;
+ }
+
+ .off {
+     display: flex;
+     gap: 28px;
+ }
+
 
  /* @media screen and(max-with:) {
     navebar
