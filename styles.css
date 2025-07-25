@@ -1,72 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-body {
-    margin: 30px auto;
-    max-width: 1140px;
-}
+ body {
+     margin: 30px auto;
+     max-width: 1140px;
+     font-family: Inter;
+ }
 
-nav li {
-    list-style: none;
-   
-}
+ nav li {
+     list-style: none;
 
-.navebar,
-.list {
-    display: flex;
-    justify-content: space-between;
-}
+ }
 
-.nav-item {
-    list-style: none;
-    padding: 0 48px;
-}
+ .navebar,
+ .list {
+     display: flex;
+     justify-content: space-between;
+ }
 
-a {
-    text-decoration: none;
-}
+ .nav-item {
+     list-style: none;
+     padding: 0 48px;
+ }
 
-.nav-item:first-child{
-    color:#252432;
-}
-.nav-item:last-child{
-    color: #000000;
-}
-.nav-item:nth-child(2), .nav-item:nth-child(3) {
-    color: #8987A1;
-}
-.text-gray{
-    color: rgba(0, 0, 0, 0.5);
-}
-.flower{
-    display: flex;
-    align-items: center;
-    margin-top: 282px;
-}
-.title{
-    font-size: 65px;
-}
-.text-primary{
-    color: #E95A08;
-}
-.button{
-    color: #FFFFFF;
-    background-color:#E95A08 ;
-    border: #FFFFFF;
-}
-.our-plants{
-    text-align: center;
-    
+ a {
+     text-decoration: none;
+ }
 
-}
-.image-flower{
-    display: grid;
-    gap: 20px;
-    grid-template-columns: repeat(4,1fr);
-}
-.lover{
-    display: flex;
-    justify-content: space-between;
-}
-/* @media screen and(max-with:) {
+ .nav-item:first-child {
+     color: #252432;
+ }
+
+ .nav-item:last-child {
+     color: #000000;
+ }
+
+ .nav-item:nth-child(2),
+ .nav-item:nth-child(3) {
+     color: #8987A1;
+ }
+
+ .text-gray {
+     color: rgba(0, 0, 0, 0.5);
+ }
+
+ .flower {
+     display: flex;
+     align-items: center;
+     margin-top: 282px;
+ }
+
+ .title {
+     font-size: 65px;
+ }
+
+ .text-primary {
+     color: #E95A08;
+ }
+
+ .button {
+     color: #FFFFFF;
+     background-color: #E95A08;
+     border: #FFFFFF;
+     padding: 20px 80px;
+ }
+
+ .our-plants {
+     text-align: center;
+ }
+
+ .image-flower {
+     display: grid;
+     gap: 20px;
+     grid-template-columns: repeat(4, 1fr);
+     text-align: center;
+ }
+ .image-flower p{
+    font-size: 22px;
+    margin-bottom: 20px;
+ }
+ .image-flower h4{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 0;
+ }
+
+ .lover {
+     display: flex;
+     gap: 60px;
+     align-items: center;
+     margin-top: -150px;
+ }
+
+ .lover-title {
+     font-size: 50px;
+ }
+
+ .badge {
+     width: 286px;
+     height: 286px;
+     margin-left: 350px;
+     margin-top: 80px;
+     filter: drop-shadow(30px 10px 40px rgba(0, 0, 0, 0.25));
+ }
+
+ .lover ul {
+     padding-left: 20px;
+     width: 100%;
+ }
+
+ .lover ul li p {
+     font-size: 22px;
+     text-align: justify;
+ }
+
+ /* @media screen and(max-with:) {
     navebar
-} */
+} 
